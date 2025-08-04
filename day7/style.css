@@ -1,0 +1,42 @@
+.btn-outline-success {
+    color: black;
+    border-color: gray;
+}
+
+.btn-outline-success:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+/* .carousel {
+    width: ;
+} */
+
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.first-line {
+    border-bottom: 1px solid #392d23;
+}
+
+.second-line a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:48rem) {
+    .first-line {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:48rem) {
+    .second-line {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
