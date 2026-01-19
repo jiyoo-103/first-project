@@ -1,0 +1,121 @@
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.btn-outline-success {
+    color: black;
+    border-color: black;
+}
+
+.btn-outline-success:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.no1 {
+    color: black;
+}
+
+
+.no2 {
+    color: black;
+}
+
+
+.card-body a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-image: url("https://www.hera.com/kr/ko/layout/main/Campaign-new/__icsFiles/afieldfile/2025/03/14/250220_final_KR_Reflection-Skin-Glow-Cushion_Sub_Moody-Look_main_KV_PC_01.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 580px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    overflow-x: hidden;
+}
+
+.face {
+    font-weight: 900;
+    font-size: 55px;
+    position: relative;
+    left: 100px;
+    top: 250px;;
+}
+
+.face1 a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 100px;
+    top: 280px;
+}
+
+
+@media screen and (max-width: 48rem) {
+    .main {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .face {
+        left: 20px;
+    }
+    .face1 a {
+        left: 20px;
+    }
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.first-line {
+    border-bottom: 1px solid #392d23;
+}
+
+.second-line a {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 48rem) {
+    .second-line {
+        display: none;
+    }
+}
+
+
+.icon-box {
+    width: 55px;
+    height: 55px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-box {
+    width: 40%;
+    display: flex;
+}
+
+@media screen and (max-width: 48rem) {
+    .second-box {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .icon-box {
+        width: 33px;
+        height: 33px;
+    }
+}
